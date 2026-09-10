@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TorqueIndia - Indian Cars</title>
+  <meta name="description" content="TorqueIndia - a simple website about Indian cars and Indian roads." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 17l2-6h10l2 6"/><path d="M7 17h10"/><circle cx="8" cy="18" r="1.5"/><circle cx="16" cy="18" r="1.5"/>
+          <path d="M4 17h16"/>
+        </svg>
+      </span>
+      <span>Torque<span class="brand-dot">.</span>India</span>
+    </a>
+
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#indian-cars">Indian Cars</a>
+      <a href="#roads">Indian Roads</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+
+    <a href="#gallery" class="cta">Explore Cars</a>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="logo">TORQUE INDIA</div>
+        <h1>Indian Cars</h1>
+        <p class="tagline">Built for Indian Roads</p>
+        <p class="hero-copy">A simple look at the cars, SUVs and ideas shaping everyday driving in India.</p>
+        <a class="hero-button" href="#indian-cars">Start Exploring</a>
+      </div>
+    </section>
+
+    <!-- Chapter 01 -->
+    <section class="section light" id="indian-cars">
+      <div class="content narrow">
+        <span class="kicker">CHAPTER 01</span>
+        <h2>Indian Cars<br />Reimagined</h2>
+        <p>India has a car for every kind of journey — from compact city cars to rugged SUVs and modern electric vehicles. TorqueIndia brings them together in one simple website.</p>
+        <p>Explore familiar names such as Tata, Mahindra, Hyundai, Kia, and Maruti Suzuki, with a focus on design, capability, technology, safety, and everyday usability.</p>
+      </div>
+    </section>
+
+    <!-- Chapter 02 -->
+    <section class="section dark" id="roads">
+      <div class="content narrow">
+        <span class="kicker on-dark">CHAPTER 02</span>
+        <h2 class="on-dark">Built for Indian Roads</h2>
+        <p class="on-dark">Indian cars increasingly combine bold styling, practical dimensions, strong road presence, and technology that fits everyday driving.</p>
+
+        <div class="metric-row">
+          <div class="metric">
+            <div class="metric-num">01</div>
+            <div class="metric-label">City-friendly dimensions and commanding visibility</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num">02</div>
+            <div class="metric-label">High ground clearance for varied Indian roads</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num">03</div>
+            <div class="metric-label">Comfort and technology for daily travel</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chapter 03 -->
+    <section class="section gallery-section" id="gallery">
+      <div class="content">
+        <span class="kicker">CHAPTER 03</span>
+        <h2>Indian Cars Gallery</h2>
+        <p class="section-intro">A text-based overview of the different types of cars commonly seen on Indian roads.</p>
+
+        <div class="car-grid">
+          <article class="car-card">
+            <span class="card-number">01</span>
+            <h3>Hatchbacks</h3>
+            <p>Compact, practical and easy to drive in busy city traffic.</p>
+          </article>
+          <article class="car-card">
+            <span class="card-number">02</span>
+            <h3>SUVs</h3>
+            <p>Popular for their space, higher seating position and road presence.</p>
+          </article>
+          <article class="car-card">
+            <span class="card-number">03</span>
+            <h3>Sedans</h3>
+            <p>Comfort-focused cars with a traditional three-box design.</p>
+          </article>
+          <article class="car-card">
+            <span class="card-number">04</span>
+            <h3>Electric Cars</h3>
+            <p>Newer options focused on quieter driving and lower running costs.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout-num">85<sup>%</sup></div>
+          <div>
+            <strong>Why SUVs?</strong>
+            <p>Space, visibility, road presence and versatility have made SUVs an important part of the Indian car market.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">Torque<span class="brand-dot">.</span>India · Bengaluru</div>
+    <div>&copy; 2026 TorqueIndia</div>
+    <div>Indian Cars Website</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
